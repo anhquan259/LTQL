@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "SNT";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Tính tổng các SNT < 100</h2>
+@using (Html.BeginForm())
+{
+<input type="text" name="soN" placeholder="Nhập số n" />
+<button type="submit">Thực hiện</button>
+}
+@ViewBag.Tong
+@ViewBag.List

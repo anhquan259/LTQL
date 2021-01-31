@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "GPT";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>GPT</h2>
+@using (Html.BeginForm())
+{
+    <label>Nhập hệ số a:</label>
+    <input type="text" name="hsa" />
+    <label>Nhập hệ số b:</label>
+    <input type="text" name="hsb" />
+    <label>Nhập hệ số c:</label>
+    <input type="text" name="hsc" />
+    <button type="submit">Giải PT</button>
+}
+@ViewBag.ketqua

@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Sum";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Sum</h2>
+@using (Html.BeginForm())
+{
+<input type="text" name="hsn" placeholder="Nhập n" />
+<button type="submit">Tính tổng</button>
+}
+@ViewBag.tinhtong
